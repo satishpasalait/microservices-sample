@@ -8,12 +8,12 @@
 
   <ItemGroup>
     <Folder Include="Handlers\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="15.1.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Polly" Version="8.6.5" />
   </ItemGroup>
 
   <ItemGroup>
