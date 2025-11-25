@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Microservices.Sample.Common\Microservices.Sample.Common.csproj" />
+    <ProjectReference Include="..\Microservices.Sample.Order.Application\Microservices.Sample.Order.Application.csproj" />
+    <ProjectReference Include="..\Microservices.Sample.Order.Domain\Microservices.Sample.Order.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
