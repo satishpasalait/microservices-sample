@@ -10,5 +10,23 @@
     <Project Path="src/Gateway/Microservices.Sample.Gateway/Microservices.Sample.Gateway.csproj" />
   </Folder>
   <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Order/">
+    <Project Path="src/Services/Order/Microservices.Sample.Order.Api/Microservices.Sample.Order.Api.csproj" />
+    <Project Path="src/Services/Order/Microservices.Sample.Order.Application/Microservices.Sample.Order.Application.csproj" />
+    <Project Path="src/Services/Order/Microservices.Sample.Order.Domain/Microservices.Sample.Order.Domain.csproj" />
+    <Project Path="src/Services/Order/Microservices.Sample.Order.Infrastructure/Microservices.Sample.Order.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Product/">
+    <Project Path="src/Services/Product/Microservices.Sample.Product.Api/Microservices.Sample.Product.Api.csproj" />
+    <Project Path="src/Services/Product/Microservices.Sample.Product.Application/Microservices.Sample.Product.Application.csproj" />
+    <Project Path="src/Services/Product/Microservices.Sample.Product.Domain/Microservices.Sample.Product.Domain.csproj" />
+    <Project Path="src/Services/Product/Microservices.Sample.Product.Infrastructure/Microservices.Sample.Product.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Shipping/">
+    <Project Path="src/Services/Shipping/Microservices.Sample.Shipping.Api/Microservices.Sample.Shipping.Api.csproj" />
+    <Project Path="src/Services/Shipping/Microservices.Sample.Shipping.Application/Microservices.Sample.Shipping.Application.csproj" />
+    <Project Path="src/Services/Shipping/Microservices.Sample.Shipping.Domain/Microservices.Sample.Shipping.Domain.csproj" />
+    <Project Path="src/Services/Shipping/Microservices.Sample.Shipping.Infrastructure/Microservices.Sample.Shipping.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/tests/" />
 </Solution>
