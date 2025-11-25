@@ -37,7 +37,7 @@ namespace Microservices.Sample.Order.Infrastructure.Repositories
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<OrderEntity> Createsync(OrderEntity order, CancellationToken cancellationToken = default)
+        public async Task<OrderEntity> CreateAsync(OrderEntity order, CancellationToken cancellationToken = default)
         {
             _dbContext.Orders.Add(order);
             await _dbContext.SaveChangesAsync(cancellationToken);
