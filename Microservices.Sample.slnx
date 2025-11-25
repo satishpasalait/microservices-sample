@@ -3,8 +3,12 @@
   <Folder Name="/src/Common/">
     <Project Path="src/Common/Microservices.Sample.Common/Microservices.Sample.Common.csproj" />
   </Folder>
-  <Folder Name="/src/Contracts/" />
-  <Folder Name="/src/Gateway/" />
+  <Folder Name="/src/Contracts/">
+    <Project Path="src/Contracts/Microservices.Sample.Contracts/Microservices.Sample.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Gateway/">
+    <Project Path="src/Gateway/Microservices.Sample.Gateway/Microservices.Sample.Gateway.csproj" />
+  </Folder>
   <Folder Name="/src/Services/" />
   <Folder Name="/tests/" />
 </Solution>
