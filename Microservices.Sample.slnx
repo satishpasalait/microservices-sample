@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/src/" />
-  <Folder Name="/src/Common/" />
+  <Folder Name="/src/Common/">
+    <Project Path="src/Common/Microservices.Sample.Common/Microservices.Sample.Common.csproj" />
+  </Folder>
   <Folder Name="/src/Contracts/" />
   <Folder Name="/src/Gateway/" />
   <Folder Name="/src/Services/" />
